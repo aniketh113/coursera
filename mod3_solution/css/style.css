@@ -52,8 +52,13 @@ h3 {
   font-size: 1.3em;
   font-weight: bold;
 }
-@media(max-width:1199px){
+@media(max-width:1199px)and(min-width:995px){
   #main-text{
-    height:2000px;
+    height:2200px;
+  }
+}
+@media(max-width:994px){
+  #main-text{
+    height:1500px;
   }
 }
