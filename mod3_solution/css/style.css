@@ -43,7 +43,7 @@ body {
 }
 
 #main-text {
-  height: 3000px;
+  height: 1000px;
   padding: 40px;
   background-color: rgb(236, 236, 209);
 }
@@ -51,4 +51,9 @@ body {
 h3 {
   font-size: 1.3em;
   font-weight: bold;
+}
+@media(max-width:1199px){
+  #main-text{
+    height:2000px;
+  }
 }
